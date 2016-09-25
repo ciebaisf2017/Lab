@@ -4,7 +4,7 @@ Kanye West, having recently mastered solo synchronized swimming, takes up coding
 
 A unicorn brings over a golden laptop and you see his code.  
 
-Your palms get sweaty looking at his work.  There's no organization and it is utterly unreadable.  Fix his code (provided in starter.js) so that it abides by the AirBnb Styleguide.  ![]https://github.com/airbnb/javascript  
+Your palms get sweaty looking at his work.  There's no organization and it is utterly unreadable.  Fix his code (provided in starter.js) so that it abides by the AirBnb Styleguide.  []https://github.com/airbnb/javascript  
 
 
 _Hint:  The AirBnb styleguide has TONS of information and guidelines.  You should read everything at some point, but for this warmup just identify the components in each specific problem and find how it is styled in the styleguide_ 
