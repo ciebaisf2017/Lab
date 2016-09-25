@@ -1,7 +1,7 @@
 #Formatting Practice!
 
 
-![](https://giphy.com/gifs/magic-feel-kanye-obzzeZn7WrJWo)
+![](https://i.giphy.com/obzzeZn7WrJWo.gif)
 
 Kanye West, having recently mastered solo synchronized swimming, takes up coding as his next big thing.  Being a lyrical genius and master of language, he figures it shouldn't be a challenge.  While the two of you are sipping Hennessy poolside on an XL beanbag made of pure tiger fur, he looks you in the eye and says, "YO this code right here.  This'll change the game.  Check it brah."
 
