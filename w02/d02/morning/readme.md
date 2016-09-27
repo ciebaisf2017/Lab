@@ -10,7 +10,7 @@ We'll spend 5-10 minutes researching, and then each group will present their top
 
 #####PARTNERSHIP ASSIGNMENTS:
 
-Count off from 1 to 4.  Those are your teams!
+Count off from 1 to 7.  Those are your teams!
 
 
 #####Questions to Answer
