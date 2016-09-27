@@ -8,15 +8,10 @@ As a programmer, you'll be responsible for knowing your code AND defending your 
 We'll spend 5-10 minutes researching, and then each group will present their topic for 4-5 minutes, with questions, to the class. Each person in the group must speak at least once. Don't worry about being incorrect - we'll help nudge you in the right direction!
 
 
-#####PARTNERSHIP ASSIGNMENTS HERE
+#####PARTNERSHIP ASSIGNMENTS:
 
-1. Alex K, Salwa, Matt G, Arlen
-2. David, Fizal, Heidi, Mike Shamah
-3. Luis, Mike Stenzler, Suprit
-4. Trevor, Chandler, Evan, Chris
-5. Erin, Rahul, Marc, John
-6. Sasha, Eric, Ramzi,
-7. Celeste, Mike W, Joe, James
+Count off from 1 to 4.  Those are your teams!
+
 
 #####Questions to Answer
 1. Truthy and Falsey: discuss, with examples. List the 'falsey' things.
