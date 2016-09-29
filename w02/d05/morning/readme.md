@@ -8,7 +8,7 @@
 
 ###The Rules###
 
-* Use the provided html, css, and JS pages.  You can use the html and css to reference the properties of each element, but __don't change anything in these files__.  All answers should be done in the JS file.
+* Use the provided html, css, and JS pages.  You can use the html and css pages to reference the properties of each element, but don't change anything in these files.  __All answers should be done in the JS file__.
 * You're hooked up with JQuery.  Use it!
 * All functions should log a message to the console stating what the function did.
 * Feel free to log anything else that is helpful in solving the problems!
