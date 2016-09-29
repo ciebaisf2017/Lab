@@ -5,7 +5,7 @@
 ## Setup
 For this morning's exercises, work out your code in the Chrome console and save your answers in the provided `script.js`.
 
-You will be creating an `About Me` object that holds some data about you! Spend the next 40 minutes taking a look at the Quick Review and then try creating your own object.
+You will be creating an `About Me` object that holds some data about you! Spend the next few minutes taking a look at the Quick Review and then try creating your own object.
 
 ### Quick Review
 ``` javascript
