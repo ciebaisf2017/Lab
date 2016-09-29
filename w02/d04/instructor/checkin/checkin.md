@@ -18,4 +18,4 @@
     - Make the background of the content section `lightblue`.
     - Get how many items are in the "brands" list.
     - Remove all brands
-    - Think of you favorite clothing brand and append it to the list. It should have both the `brand` and `favorite` classes.
+    - Think of your favorite clothing brand and append it to the list. It should have both the `brand` and `favorite` classes.
