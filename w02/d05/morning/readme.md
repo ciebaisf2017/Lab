@@ -5,14 +5,16 @@
 
 
 
-###Kanye's Specs###
 
+###The Rules###
 
 * Use the provided html, css, and JS pages.  You can use the html and css to reference the properties of each element, but __don't change anything in these files__.  All answers should be done in the JS file.
 * All functions should log a message to the console stating what the function did.
 * Feel free to log anything else that is helpful in solving the problems!
 
-He wants:
+
+###Kanye's Specs###
+
 
 1.  When you hover over box 1, box 2's height is set to 200px.
 2.  Hovering over box 2 makes box 1's height 20% smaller (in other words, 80% of what it was).
