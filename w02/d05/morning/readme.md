@@ -14,7 +14,7 @@
 
 
 ###Reference###
-* ![](https://api.jquery.com/category/events/mouse-events/)   << HELPFUL
+* [](https://api.jquery.com/category/events/mouse-events/)   << HELPFUL
 
 
 ###Kanye's Specs###
