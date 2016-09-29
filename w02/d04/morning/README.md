@@ -92,13 +92,13 @@ Object Method Example:
   ```
 
 1. Add another method to your object that prints a single string (including your first name, last name, and all of your hobbies) to the console.
- - iterate through the hobbies array with a `for` loop and add a comma after each hobby in the string
+Iterate through the hobbies array with a `for` loop and add a comma after each hobby in the string.
 
-Your output should look like:
-``` javascript
-jason.printData();
-  => "Hi, I'm Jason Seminara and my hobbies include web development, drinking green juice, bossing around Trevor and Irwin,"
-```
+  Your output should look like:
+  ``` javascript
+  jason.printData();
+    => "Hi, I'm Jason Seminara and my hobbies include web development, drinking green juice, bossing around Trevor and Irwin,"
+  ```
 
 
 ## Bonus
