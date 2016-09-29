@@ -9,12 +9,13 @@
 ###The Rules###
 
 * Use the provided html, css, and JS pages.  You can use the html and css to reference the properties of each element, but __don't change anything in these files__.  All answers should be done in the JS file.
+* You're hooked up with JQuery.  Use it!
 * All functions should log a message to the console stating what the function did.
 * Feel free to log anything else that is helpful in solving the problems!
 
 
 ###Reference###
-* [](https://api.jquery.com/category/events/mouse-events/)   << HELPFUL
+* [JQuery Event Listeners](https://api.jquery.com/category/events/mouse-events/)   << HELPFUL
 
 
 ###Kanye's Specs###
