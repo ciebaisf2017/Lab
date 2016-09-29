@@ -3,7 +3,7 @@
 
 ![](https://i.giphy.com/HfGqchLEK2WFq.gif)
 
-"Yo mang, good to see you again", a giddy Kanye says, his zebra fur joggers glistening with ruby rhinestones.  "Thanks so much for helping me with my code on Monday.  Look, I got a new project for you".  He goes on to explain his new project.  Kanye is trying to elevate his new album to the next level with a website that his listeners can interact with while they are jamming to his latest album.  It's really weird, but he swears "it's gonna be the next Monet, but for music". 
+"Yo mang, good to see you again", a giddy Kanye says, his zebra fur joggers glistening with ruby rhinestones.  "Thanks so much for helping me with my code on Monday.  Look, I got a new project for you".  He goes on to explain his new project.  Kanye is trying to elevate his new album to the next level with a website that his listeners can interact with while the tracks play.  It's really weird, but he swears "it's gonna be the next Monet, but for music". 
 
 
 ###The Rules###
