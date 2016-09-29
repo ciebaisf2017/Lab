@@ -11,7 +11,8 @@
 * Feel free to log anything else that is helpful in solving the problems!
 
 He wants:
-1.  When you hover over box 1, box 2's height is set to 200px
+
+1.  When you hover over box 1, box 2's height is set to 200px.
 2.  Hovering over box 2 makes box 1's height 20% smaller (in other words, 80% of what it was).
 3.  Clicking on box 1 makes its _own_ height 20% bigger.
 4.  Make a super powerful click on box 1.  The action of clicking _down_ on box 1 makes box 1 turn 'navy' and box 2 turn 'maroon'. The action of _releasing_ that __same click__ makes box 1's corners round.
