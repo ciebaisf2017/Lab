@@ -1,9 +1,9 @@
 #Kanye's New Visualizer#
 ##A JQuery Adventure##
 
+![](https://i.giphy.com/HfGqchLEK2WFq.gif)
+
 "Yo mang, good to see you again", a giddy Kanye says, his zebra fur joggers glistening with ruby rhinestones.  "Thanks so much for helping me with my code on Monday.  Look, I got a new project for you".  He goes on to explain his new project.  Kanye is trying to elevate his new album to the next level with a website that his listeners can interact with while they are jamming to his latest album.  It's really weird, but he swears "it's gonna be the next Monet, but for music". 
-
-
 
 
 ###The Rules###
@@ -11,6 +11,10 @@
 * Use the provided html, css, and JS pages.  You can use the html and css to reference the properties of each element, but __don't change anything in these files__.  All answers should be done in the JS file.
 * All functions should log a message to the console stating what the function did.
 * Feel free to log anything else that is helpful in solving the problems!
+
+
+###Reference###
+* ![](https://api.jquery.com/category/events/mouse-events/)   << HELPFUL
 
 
 ###Kanye's Specs###
