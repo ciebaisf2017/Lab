@@ -27,9 +27,9 @@
 4.  Make a super powerful click on box 1!  
   * The action of clicking _down_ on box 1 makes box 1 turn 'navy' and box 2 turn 'maroon'. 
   * The action of _releasing_ that __same click__ makes box 1's corners round.
-5. Modify the hover function from question 2 such that every 4th hover will cause the height of box 1 to double! For example:
+5. Modify the hover function from question 2 such that every 5th hover will cause the height of box 1 to double! For example:
   * 1st time the mouse goes over, the box gets 20% shorter. 
   * 2nd time the mouse goes over, it shrinks another 20%. 
-  * 3rd time, shrinks another 20%.  
-  * 4th time, the height doubles.
+  * 3th and 4th time, shrinks another 20% each.
+  * 5th time, the height doubles.
 6. Add a new event listener to box 2.  If the user double clicks box 2 three times, the box consumes the entire screen.  Keep in mind that you have to pause between each double click or the browser thinks you are just single clicking a bunch of times.
