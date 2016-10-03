@@ -14,9 +14,9 @@ PARTNER UP! Just like with pseudocoding, we should spend five minutes planning o
 
 One person should WIREFRAME the webpage. Draw boxes around elements - it'll help you get a sense of what elements you need and where elements should be nested.
 
-The other person should review the Flexbox guide and decide which containers need a `display: flex;` property and how elements within should be arranged.
+The other person should review the Flexbox guide and decide which containers need Flexbox and how elements within should be arranged.
 
-After five minutes, come together to make a plan to figure out which elements you need and how to incorporate Flexbox!
+After five minutes, come together to implement the design!
 
 Work in the starter `index.html` and `style.css` files in the doggies folder.
 
