@@ -72,7 +72,7 @@ $(document).ready(function() {
   flatten2();
   mod1();
   bigger1();
-  colorSwap();
+  colorSwa  p();
   roundCorners1();
   box2Huge();
 });
