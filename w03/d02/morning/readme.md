@@ -46,4 +46,4 @@ Things to think about:
 * You probably should write a function called `walkingPony` that is *called* when the document is ready.
 * In `walkingPony` what properties of the pony need to change over time to make it trot?
 * How can you use jQuery to change this?
-* `Hint`: Try using `setInterval`!
+* `Hint`: Try using [setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp)!
