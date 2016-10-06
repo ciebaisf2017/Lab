@@ -1,57 +1,66 @@
-console.log('Hey man, you got JavaScript');
+console.log("Irwin's OOP Calculator");
 
-$(function() {
+$(function(){
+  // Assign constant variables for a new Calculator object and Calculator display
   const calc = new Calculator();
+  const display = $('.display');
 
-  function operand(event) {
-    console.log(event.target.innerText);
-    if($('.display').text() === '0') {
-      render(event.target.innerText);
+  // Render [value] to the Calculator display
+  function renderDisplay(value) {
+    display.text(value);
+  }
+
+  // Clear Calculator display and reset Calculator object
+  function clearBtn() {
+    renderDisplay('0');
+    calc.resetHard();
+  }
+
+  function operandBtn(event) {
+    if (calc.output != null) {
+      calc.output = null;
+      renderDisplay(event.target.innerText);
     } else {
-      render($('.display').text() + event.target.innerText);
+      // Ugly solution for checking if an operator is currently being displayed
+      if (display.text() != '.' && !(parseInt(display.text()))) {
+        renderDisplay('');
+      }
+      renderDisplay(display.text() + event.target.innerText);
     }
   }
 
-  function operator(event) {
-    if (calc.current) {
-      calc.operandOne = parseFloat($('.display').text());
-      render('');
-    } else {
-      calc.operandTwo = $('.display').text();
-    }
+  function operatorBtn(event) {
     calc.operator = event.target.innerText;
-    calc.current = !calc.current;
+    if (calc.output != null) {
+      calc.operand1 = calc.output;
+      calc.firstOp = !calc.firstOp;
+    } else if (calc.firstOp) {
+      calc.operand1 = parseFloat(display.text());
+      calc.firstOp = !calc.firstOp;
+    }
+    renderDisplay(event.target.innerText);
   }
 
-  function evaluate(event) {
-    calc.operandTwo = parseFloat($('.display').text());
-    calc.evaluate()
-    render(calc.output);
-  }
-
-  function render(displayValue) {
-    $('.display').text(clipValue(displayValue));
-  }
-
-  function clearDisplay() {
-    render('0');
+  function equalsBtn() {
+    calc.operand2 = parseFloat(display.text());
+    calc.firstOp = !calc.firstOp;
+    renderDisplay(calc.evaluate());
     calc.reset();
   }
 
-  function clipValue(value) {
-    value += '';
-    let x = value.split('');
-    console.log(x);
-    if (x.length > 9) {
-      for (var i = x.length - 1; i > 8; i--) {
-        x.pop();
-      }
-    }
-    return x.join('');
-  }
 
-  $('.value').click(operand);
-  $('.operator').click(operator);
-  $('.evaluate').click(evaluate);
-  $('.clear').click(clearDisplay);
+  // Click event listeners for operand, operator, equals and clear buttons
+  $('.operand').click(operandBtn);
+  $('.operator').click(operatorBtn);
+  $('.equals').click(equalsBtn);
+  $('.clear').click(clearBtn);
+
+  // Mousedown and Mouseup event listeners to visualize a button press
+  $('.button').mousedown(function(event){
+    $(this).css('opacity','0.5');
+  });
+  $('.button').mouseup(function(){
+    $(this).css('opacity', '1');
+  });
+
 });
