@@ -2,8 +2,8 @@
 console.log('Mission to Mars is a go!')
 
 // add double check function to button in HTML
-let buttonClickHandler = function() {
-  $('#launch').click(function(event) {
+const buttonClickHandler = () => {
+  $('#launch').click(() => {
     let temp = parseInt(prompt("This is mission control. Please report the current temperature in fahrenheit!"));
     let fuel = parseInt(prompt("Please report the fuel percentage!"));
     let password = prompt("Please report the password!");
@@ -15,10 +15,10 @@ let buttonClickHandler = function() {
 };
 
 // countdown function
-let countdown = function() {
+const countdown = () => {
   let timer = 10;
   $('#count').text(timer);
-  let clearTimer = setInterval(function() {
+  let clearTimer = setInterval(() => {
     if (timer === 0) {
       $('#count').text('');
       clearInterval(clearTimer);
@@ -32,10 +32,10 @@ let countdown = function() {
 };
 
 
-$(function() {
-  // scroll to the bottom of the page at the start so we can go back up!!
+$(() => {
+  // Scroll to the bottom of the page at the start so we can go back up!!
   window.scrollBy(0, 20000);
 
-  // run the function that attach click event to button
+  // Attach the click event to the Go! button
   buttonClickHandler();
 });

@@ -6,6 +6,12 @@ $(function() {
     $(this).text(name);
   });
 
+  // Fat arrow version, using event parameter because fat arrow does not bind this
+  // $('#name-click').click( event => {
+  //   let name = prompt("Hey what does this button say?");
+  //   event.target.innerText = name;
+  // });
+
   $('#count-click').click(function() {
     let seconds = parseInt(prompt("Enter the number of seconds to wait before I alert 'DONE!'")) * 1000;
     setTimeout(function() {
