@@ -3,7 +3,7 @@ function scrollTo(element, top, duration) {
   let distance = top - element.scrollTop();
   let perTick = distance / duration * 10;
 
-  let clearScroll = setInterval( () => {
+  let clearScroll = setInterval(() => {
     if (duration < 0 || element.scrollTop === top) {
       clearInterval(clearScroll);
     } else {
