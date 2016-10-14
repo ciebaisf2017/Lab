@@ -1,6 +1,6 @@
 # Euler? Euler?
 
-![Ben Stein](http://allthingsd.com/files/2012/04/bueller.jpg)
+![Ben Stein](https://allthingsd.com/files/2012/04/bueller.jpg)
 
 As we've discussed before, a lot of job interviews will include "Code Challenges" to test your ability to think like a programmer. A lot of these are mathematical and challenge you to think computationally to solve a theorem. [Project Eueler](http://projecteuler.net) is an online repository of computer science based math problems, and many code challenges will resemble these.
 
