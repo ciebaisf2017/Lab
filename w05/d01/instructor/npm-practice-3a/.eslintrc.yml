@@ -1,0 +1,10 @@
+extends: airbnb
+plugins:
+  - react
+  - jsx-a11y
+  - import
+  - jquery
+env:
+  browser: true
+  es6: true
+  jquery: true
