@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	 <img src="<% Movie.Poster %>" alt="">
-	 <form class="edit" action="/<% movie._id%>?_method=PUT" method="get" accept-charset="utf-8">
-
-
-	 </form>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit Movie</title>
+  </head>
+  <body>
+    <img src="<%= movie.Poster %>" alt="" />
+    <form class="edit" action="/<%= movie._id %>?_method=PUT" method="POST">
+      <input type="text" name="movie[Title]" value="<%= movie.Title %>">
+      <input type="submit" value="Update">
+    </form>
+  </body>
 </html>

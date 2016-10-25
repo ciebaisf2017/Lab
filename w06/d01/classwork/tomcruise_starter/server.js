@@ -4,25 +4,22 @@
 
 /* set up the Tom Cruise Movie  DB */
 
-const express        = require('express');
-const logger         = require('morgan');
-const dbService      = require('./model/cruiseDB');
-const bodyParser     = require('body-parser');
+const express      = require('express');
+const logger       = require('morgan');
+const dbService    = require('./model/cruiseDB');
+const bodyParser   = require('body-parser');
 const methodOverride = require('method-override');
 
-const app            = express();
-const PORT           = process.argv[2] || process.env.PORT || 3000;
+const app          = express();
+const PORT         = process.argv[2] || process.env.PORT || 3000;
 
 // set up logging so that we can see what's happening
 app.use(logger('dev'));
 
-// set static assets path
 app.use(express.static('./public'));
 
-// set default templating engine
 app.set('view engine', 'ejs');
 
-// middleware to receive form inputs
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // middleware for method override
@@ -52,17 +49,23 @@ const filterQS = (req, res, next) => {
 
 app.get('/', dbService.getFavorite, filterQS, dbService.searchMovies, (req, res) => {
   res.render('index', {
-    favorites: res.favorites || [],
+    favorites: res.favorites,
     movies: res.filteredMovies,
   });
 });
 
+app.get('/edit/:id', dbService.getMovie, (req, res) => {
+  res.render('edit', { movie: res.movie });
+});
+
+app.put('/:id', dbService.editMovie, (req, res) => {
+  res.redirect('/');
+});
 
 app.post('/favorites', dbService.saveFavoriteMovie, (req, res) => {
-   res.redirect('/');
-})
-
+  res.redirect('/');
+});
 
 app.delete('/favorites/:id', dbService.deleteFavoriteMovie, (req, res) => {
-   res.redirect('/');
+  res.redirect('/');
 });
