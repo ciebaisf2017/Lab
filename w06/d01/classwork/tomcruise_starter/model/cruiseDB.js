@@ -25,15 +25,64 @@ function searchMovies(req, res, next) {
 }
 
 
-// function saveFavoriteMovie(req, res, next) {}
+ function saveFavoriteMovie(req, res, next) {
+   MongoClient.connect(dbConnection, (err, db) => {
+   if (err) return next(err);
 
-// function getFavorite(req, res, next) {}
+   db.collection('favorites')
+     .insert(req.body.favorite, (insertErr, result) => {
+      if(insertErr) return next(insertErr);
+        res.saved = result;
+        db.close();
+        return next();
+     });
+   return false;
+   });
+   return false;
+ }
 
-// function deleteFavoriteMovie(req, res, next) {}
+
+
+ function getFavorite(req, res, next) {
+   MongoClient.connect(dbConnection, (err, db) => {
+   if (err) return next(err);
+
+   db.collection('favorites')
+     .find({})
+     .sort({ Title: 1 })
+     .toArray((arrayError, data) => {
+       if (arrayError) return next(arrayError);
+
+       // return the data
+       res.favorites = data;
+       db.close();
+       return next();
+     });
+   return false;
+   });
+ return false;
+ }
+
+function deleteFavoriteMovie(req, res, next) {
+   MongoClient.connect(dbConnection, (err, db) => {
+   if (err) return next(err);
+
+   db.collection('favorites')
+     .findAndRemove({ _id: ObjectID(req.params.id) }, (removeErr, doc) => {
+      if(removeErr) return next(removeErr);
+
+        res.remove = doc;
+        db.close();
+        return next();
+     });
+   return false;
+   });
+   return false;
+}
 
 module.exports = {
   searchMovies,
-  // saveFavoriteMovie,
-  // getFavorite,
-  // deleteFavoriteMovie,
+  saveFavoriteMovie,
+  getFavorite,
+  deleteFavoriteMovie,
 };

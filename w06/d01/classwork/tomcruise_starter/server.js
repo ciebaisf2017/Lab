@@ -50,9 +50,19 @@ const filterQS = (req, res, next) => {
 
 /* ------------------------ */
 
-app.get('/', filterQS, dbService.searchMovies, (req, res) => {
+app.get('/', dbService.getFavorite, filterQS, dbService.searchMovies, (req, res) => {
   res.render('index', {
     favorites: res.favorites || [],
     movies: res.filteredMovies,
   });
+});
+
+
+app.post('/favorites', dbService.saveFavoriteMovie, (req, res) => {
+   res.redirect('/');
+})
+
+
+app.delete('/favorites/:id', dbService.deleteFavoriteMovie, (req, res) => {
+   res.redirect('/');
 });
