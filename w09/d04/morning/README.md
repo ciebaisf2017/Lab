@@ -4,7 +4,7 @@
 #### Once you master bind, call, and apply, you also will have no master!
 
 ## Setup
-You will be doing your work in the provided script.js file. Complete all problems. We will review at 10:00.
+You will be doing your work in the provided script.js file. Focus on `bind` first, but try to complete all problems.
 
 ## Assignment
 Today we will be looking at 3 new methods in Javascript - `bind`, `call`, and `apply`. Not only are these the Deathly Hallows of JS, they are very useful methods for object oriented programming, and are often the subject of job interview questions! We will see these again, but let's take a first stab at this stuff.
@@ -47,7 +47,7 @@ Take a look at this code before running it or trying it out. What do you expect 
 What is the actual output? `Hint` - it's not YOUR fault if `harryPotter.logEscape()` is undefined.
 What happens when we call bind? What is bind doing here?
 
-Write out your answer in English.
+Write out your answer in plain English.
 
 ### 1.2 More Bind!
 Given the following objects:
@@ -106,7 +106,7 @@ Take a look at this code before running it or trying it out. What do you expect 
 
 What is the actual output?
 
-How is `bind` working in this example? Explain in English.
+How is `bind` working in this example? Comment an answer in plain English.
 
 ## 1.9 Last one with bind!
 Given the following code:
