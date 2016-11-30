@@ -14,9 +14,9 @@ Let's look at some more Ruby concepts!
 You are provided with a file called practice.rb. You can run this code by typing `ruby practice.rb` in the terminal.
 
 ## Assignment
-For each problem below, read the code carefully and try to understand what it is doing before you run it. Many of these concepts are the same as in Javascript, and you may find that Ruby is very easy to read!
+For each problem below, read the code carefully and try to understand what it is doing before you run it. Many of these concepts are the same as in JavaScript, and you may find that Ruby is very easy to read!
 
-Comments in Ruby are created with `#`. In `practice.rb`, uncomment the code for the problem you are working on before you run `ruby practice.rb in the terminal`. When you're ready to move to the next problem, comment out the previous problem again.
+Comments in Ruby are created with `#`. In `practice.rb`, uncomment the code for the problem you are working on before you run `ruby practice.rb` from the terminal. When you're ready to move to the next problem, comment out the previous problem again.
 
 For each problem - Did the code run as you expected? What are the similarities between JavaScript and Ruby? What are the differences?
 
